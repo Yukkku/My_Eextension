@@ -1,6 +1,6 @@
 {
   "manifest_version":3,
-  "name":"Y-ex",
+  "name":"My_Eextension",
   "version":"1.0",
   "description":"自作拡張機能です。",
   "content_scripts":[
