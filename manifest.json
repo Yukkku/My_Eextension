@@ -1,0 +1,11 @@
+{
+  "manifest_version":3,
+  "name":"Y-ex",
+  "version":"1.0",
+  "description":"自作拡張機能です。",
+  "content_scripts":[
+    {"matches":["https://scratch.mit.edu/projects/*"],"css":["stage-corner/main.css"]},
+    {"matches":["https://scratch.mit.edu/discuss/topic/*"],"js":["forum_reply/main.js"]},
+    {"matches":["https://scratch.mit.edu/discuss/topic/*"],"js":["newpost_checker/main.js"]}
+  ]
+}
